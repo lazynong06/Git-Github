@@ -40,3 +40,11 @@ Git有工作区、暂存区和版本库的概念。
 >
 > 修改提交人姓名
 
+### git reset commit_id
+
+> 将滚回commit_id状态，git log显示的日志中，最上面的是最近提交的。
+
+### git push
+
+> 将修改推向远端
+
