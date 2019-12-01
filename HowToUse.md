@@ -12,6 +12,8 @@ Git有工作区、暂存区和版本库的概念。
 
 ## Git的命令和操作
 
+### 简单的操作
+
 ### git status
 
 > 使用这个命令查看当前工作区的状态。
@@ -47,4 +49,36 @@ Git有工作区、暂存区和版本库的概念。
 ### git push
 
 > 将修改推向远端
+>
+> 当我们推向远端时，若远端有更新，就要先`git pull`，然后会对修改进行自动合并，若修改有冲突，则需要手动修改，然后才能进行push
+
+### git pull
+
+> 拉取远端的更新
+
+### 团队协同操作
+
+### git branch branchname
+
+> 创建一个名为branchname的分支
+
+### git checkout branchname
+
+> 切换到branchname分支
+
+### git checkout -b branchname
+
+> 等价于上面两个操作的合并
+
+### git push --set-upstream origin branchname
+
+> 在远端创建一个branch并且将修改推到远端
+
+### 进行项目合并
+
+- 先切换到master分支
+- git pull拉取当前分支的更新
+- git merge branch1命令将branch1合并到master
+
+### 使用IDEA进行GIt操作
 
