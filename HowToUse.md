@@ -10,6 +10,20 @@ Git有工作区、暂存区和版本库的概念。
 
   ![avatar](https://www.runoob.com/wp-content/uploads/2015/02/1352126739_7909.jpg)
 
+## 将Git与远端连接
+
+### 生成SSH Key
+- 输入命令ssh-keygen -t rsa，会生成密钥文件，id_rsa.pub是公钥，密钥文件默认存在home/user/.git文件中
+### 添加GitHub的SSH密钥
+- 登录GitHub账户
+- 打开Setting
+- 找到SSH and GPG
+- 选择SSH Keys
+- 选择 New SSH Key
+- 将id_ras.pub的内容粘贴到Key栏
+### 检查是否配置成功
+- 添加SSH Key后，输入命令ssh -T git@github.com查看是否配置成功
+
 ## Git的命令和操作
 
 ### 简单的操作
