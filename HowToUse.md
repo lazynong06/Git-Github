@@ -24,6 +24,9 @@ Git有工作区、暂存区和版本库的概念。
 ### 检查是否配置成功
 - 添加SSH Key后，输入命令ssh -T git@github.com查看是否配置成功
 
+### 本地库与远端库连接
+- 输入命令git remote add origin https://github.com/username/repo_name.git
+
 ## Git的命令和操作
 
 ### 简单的操作
