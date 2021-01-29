@@ -13,7 +13,7 @@ Git有工作区、暂存区和版本库的概念。
 ## 将Git与远端连接
 
 ### 生成SSH Key
-- 输入命令ssh-keygen -t rsa，会生成密钥文件，id_rsa.pub是公钥，密钥文件默认存在home/user/.git文件中
+- 输入命令ssh-keygen -t rsa，会生成密钥文件，id_rsa.pub是公钥，密钥文件默认存在home/user/.git文件中(Windows默认存在C:\Users\Canon/.ssh)
 ### 添加GitHub的SSH密钥
 - 登录GitHub账户
 - 打开Setting
